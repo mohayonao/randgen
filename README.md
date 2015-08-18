@@ -5,5 +5,20 @@
 
 > simple random generator
 
+## Installation
+
+```
+npm install @mohayonao/randgen
+```
+
+## API
+### Class methods
+- `createInstance(seed: number): RandGen`
+
+### Instance methods
+- `intGenerator(): number`
+- `doubleGenerator(): number`
+- `random(): number`
+
 ## License
 MIT

@@ -1,0 +1,25 @@
+{
+  "name": "@mohayonao/randgen",
+  "description": "simple random generator",
+  "version": "0.0.0",
+  "author": "mohayonao <mohayonao@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/mohayonao/randgen/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "files": [
+    "package.json",
+    "README.md",
+    "index.js",
+    "lib"
+  ],
+  "homepage": "https://github.com/mohayonao/randgen/",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mohayonao/randgen.git"
+  },
+  "scripts": {}
+}

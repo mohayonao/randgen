@@ -12,13 +12,28 @@ npm install @mohayonao/randgen
 ```
 
 ## API
-### Class methods
-- `createInstance(seed: number): RandGen`
+### RandGen
+- `constructor([ seed: number ])`
 
-### Instance methods
-- `intGenerator(): number`
-- `doubleGenerator(): number`
+#### Instance attributes
 - `random(): number`
+
+## Examples
+
+```js
+import RandGen from "@mohayonao/randgen";
+
+function sample(list, rand = Math.random) {
+  return list[(rand() * list.length)|0];
+}
+
+let rand = new RandGen(123456789).random;
+let list = [ 1, 2, 3, 4, 5 ];
+
+console.log(sample(list, rand)); // 5
+console.log(sample(list, rand)); // 3
+console.log(sample(list, rand)); // 2
+```
 
 ## License
 MIT
